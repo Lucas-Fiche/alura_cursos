@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: white;
+}
+
+.titulo-destaque{
+    color:rgb(0, 149, 255);
+}
+
+.botao-tiktok{
+    background-color: black;
+    color: yellow;
+}
+
+.botao-instagram{
+    background-color: black;
+    color: green;
+}
+
+.botao-youtube{
+    background-color: black;
+    color: red;
+}
+
+.botao-kwai{
+    background-color: black;
+    color: blue;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 5%;
+    text-align: center;
+}
+
+.apresentacao__conteudo{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 50px;
+    font-family: "Anton SC", sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+}
+
+.apresentacao__logo{
+    margin: 50px;
+}
+
+.apresentacao__botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.apresentacao__botoes__botao {
+    background-color:rgb(0, 149, 255);
+    width: 150px;
+    border-radius: 16px;
+    font-size: 22px;
+    padding: 18.5px 0px;
+    text-decoration: none;
+    color: black;
+    font-family: "Kode Mono", monospace;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.botao-contato{
+    background-color: burlywood;
+    text-decoration: none;
+    color: black;
+    border-radius: 16px;
+    font-size: 22px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    padding: 18.5px 0px;
+    margin-bottom: 10px;
+    font-family: "Kode Mono", monospace;
+}
