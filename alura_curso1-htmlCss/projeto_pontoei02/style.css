@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-terciaria: grey;
+    --cor-fiche: #3AAA35;
+    --cor-dudu: #1D71B8;
+    --cor-caio: #FFEC00;
+    --cor-nunes: #E30613;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito:#3286cb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+/* Altera todos os containers */
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* Altera o container principal */
+.principal {
+    background-image: url("images/background-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+/* Caixa do container principal */
+.container__principal__caixa {
+    margin: 0 6em;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.934);  
+}
+
+/* Titulo do container principal */
+.container__principal__titulo {
+    font-size: 2.625rem;
+    font-weight: 700;
+    font-family: "Anton SC", sans-serif;
+}
+
+/* Imagem do container principal */
+.container__principal__imagem {
+    margin: 1em 0 2em 0;
+}
+
+/* Botões do container principal */
+.container__principal__botao {
+    background-color: transparent;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+}
+
+/* Aviso no container principal */
+.container__principal__aviso {
+    font-size: 12px;
+    color: var(--cor-terciaria);
+}
+
+/* Container secundário */
+.secundario {
+    align-items: center;
+    margin: 5em 6em;
+}
+
+/* Imagem do container secundário */
+.container__secundario__imagem {
+    width: 80%;
+}
+
+/* Botão container secundário */
+.secundario__botao {
+    margin-top: 1em;
+}
+
+/* Descrições, textos e títulos dos containers */
+.container__descricao {
+    padding: 2em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--cor-secundaria);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cor-terciaria);
+    text-align:justify;
+}
+
+.descricao__botao__pagina {
+    background-color: transparent;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+/* Fim das descrições, textos e títulos dos containers */
+
+/* container terciário */
+.terciario {
+    align-items: center;
+    margin: 5em 6em;
+    gap: 150px;
+}
+
+/* Botão container terciário */
+.terciario__botao {
+    margin-top: 1em;
+}
+
+/* Imagem do container terciário */
+.container__terciario__imagem {
+    border-radius: 30px;
+    width: 70%;
+}
+
+/* Container dos dispositivos */
+.container__dispositivos {
+    text-align: center;
+    margin: 10em 0;
+}
+
+/* Título do container dispositivos */
+.container__dispositivos__titulo {
+    font-size: 3rem;
+    color: var(--cor-secundaria);
+}
+
+/* Lista do container dispositivos */
+.container__dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+/* Itens da lista do container dispositivos */
+.container__dispositivos__lista__item {
+    font-size: 2rem;
+    color: var(--cor-secundaria);
+}
+
+/* Rodapé da página */
+.rodape {
+    text-align: center;
+    margin: 1em 3em;
+}
+
+/* Lista do rodapé */
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+/* Itens da Lista do rodapé */
+.rodape__lista__item a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    margin-left: 1em;
+}
+
+/* Texto do rodapé */
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cor-terciaria);
+    font-size: 0.875rem;
+}
+
+/* Pseudoclasses */
+
+/* Animações container principal */
+.principal_primeiro_botao:hover {
+    background-color: rgb(12, 12, 12);
+    color: var(--cor-caio);
+}
+
+.principal_segundo_botao:hover {
+    background-color: rgb(12, 12, 12);
+    color: var(--cor-nunes);
+}
+/* Fim animações container principal */
+
+/* Botão do container terciário */
+.terciario__botao:hover {
+    background-color: rgb(12, 12, 12);
+    color: var(--cor-fiche);
+}
+
+/* Botão do container secundário */
+.secundario__botao:hover {
+    background-color: rgb(12, 12, 12);
+    color: var(--cor-dudu);
+}
+
+/* Botões do rodapé */
+.cor_botao_caio a:hover  {
+    color: var(--cor-caio);
+}
+
+.cor_botao_fiche a:hover{
+    color: var(--cor-fiche);
+}
+
+.cor_botao_dudu a:hover {
+    color: var(--cor-dudu);
+}
+
+.cor_botao_nunes a:hover {
+    color: var(--cor-nunes);
+}
+
+.rodape__lista__item a:active {
+    color: purple;
+}
+
+/* Responsividade */
+
+@media (max-width: 1040px) {
+
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .principal {
+        background-image: url("images/background-image2.png");
+    }
+
+    .secundario {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .terciario {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .secundario__imagem {
+        width: 45%;
+    }
+
+    .descricao__titulo {
+        text-align:center;
+    }
+    
+    .descricao__texto {
+        text-align:center;
+        margin: 2em 0;
+    }
+
+    .integrantes {
+        margin: 2em -5em;
+    }
+
+    .titulo_app {
+        margin: 0em -3em;
+    }
+
+    .app {
+        margin: 2em -5em;
+    }
+
+    .container__botao__pagina {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dispositivos__lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        margin: 5em 0;
+    }
+
+    .rodape__lista {
+        flex-wrap: wrap;
+        align-items: center; 
+    }
+
+    .lista__link {
+        margin: 0.5em;
+    } 
+
+}
