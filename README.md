@@ -4,3 +4,5 @@ Este repositório contém códigos e materiais desenvolvidos durante os cursos r
 
 ### 🗂️ Estrutura do Repositório
 O repositório está organizado por diretórios, onde cada diretório representa um curso ou projeto específico. 
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Courier+New&weight=600&size=25&pause=1000&color=72f08f&random=false&width=435&height=48&lines=Obrigado%2C+por+visitar+meu+Repositório!) 
